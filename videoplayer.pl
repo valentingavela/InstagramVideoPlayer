@@ -5,4 +5,4 @@ my $pth = "/home/pi/materiales/instagram/" ;
 
 my @files = <"/home/cliff/Downloads/*.mp4">;
 my $item = $files[rand(@files)];
-print($item);
+system("omxplayer $item");
