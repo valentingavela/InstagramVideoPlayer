@@ -1,0 +1,1 @@
+* * * * * find /home/pi/materiales/instagram/ -type f -ctime +10 -name "*.mp4" | xargs rm -f
