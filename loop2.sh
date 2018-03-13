@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#export INFOBEAMER_BLANK_MODE=console
+ #export INFOBEAMER_BLANK_MODE=console
 echo "23" > /sys/class/gpio/export
 echo "in" > /sys/class/gpio/gpio23/direction
 while true
@@ -14,7 +14,7 @@ do
 	    #echo $(date) " mov" > /home/pi/movimiento.log
             #kill -9 $(pidof fbi)
 	    sleep 2
-            python3 /home/pi/motor/aleatorio2.py > /dev/null 2>&1 &
+            perl /home/pi/videoplayer.pl > /dev/null 2>&1 &
             sleep 25
             #killall info-beamer &&
             kill -9 $(pidof fbi)
@@ -32,4 +32,3 @@ do
     fi
 sleep 0.2
 done
-
