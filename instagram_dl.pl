@@ -4,7 +4,7 @@ use strict ;
 use warnings ;
 use JSON ;
 
-# my $authorize = "https://api.instagram.com/oauth/authorize/?client_id=ce5473096d55448e8eb83df00f08a19a&redirect_uri=http://www.muta.com.ar&response_type=token" ;
+# my $authorize = "https://api.instagram.com/oauth/authorize/?client_id=&redirect_uri=http://www.muta.com.ar&response_type=token" ;
 
 my $pthdownload = "/home/pi/materiales/instagram/" ;
 my $userid = "" ; #userid de instagram
