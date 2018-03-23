@@ -7,8 +7,8 @@ use JSON ;
 # my $authorize = "https://api.instagram.com/oauth/authorize/?client_id=ce5473096d55448e8eb83df00f08a19a&redirect_uri=http://www.muta.com.ar&response_type=token" ;
 
 my $pthdownload = "/home/pi/materiales/instagram/" ;
-my $userid = "3660484819" ; #userid de instagram
-my $access_token="3660484819.ce54730.fe52f24234b24c4998219a39da480be4" ; #access_token que se consigue con la app registrada
+my $userid = "" ; #userid de instagram
+my $access_token="" ; #access_token que se consigue con la app registrada
 my $url = "https://api.instagram.com/v1/users/$userid/media/recent/?access_token=$access_token" ; #url para extraer imagen y video
 
 my $random = int(rand(1000000)) ;
