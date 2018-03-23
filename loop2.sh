@@ -20,8 +20,8 @@ do
             kill -9 $(pidof fbi)
             killall mplayer
             killall omxplayer.bin
-            fbi -T 2 -d /dev/fb0 -noverbose -a /home/pi/motor/black.jpg
-            fbi -T 1 -d /dev/fb0 -noverbose -a /home/pi/motor/black.jpg
+            fbi -T 2 -d /dev/fb0 -noverbose -a /home/pi/black.jpg
+            fbi -T 1 -d /dev/fb0 -noverbose -a /home/pi/black.jpg
             kill -9 $(pidof fbi)
             rm -rf /mnt/ramdisk/*
             #dd if=/dev/zero of=/dev/fb0
